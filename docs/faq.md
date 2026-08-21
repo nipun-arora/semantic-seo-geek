@@ -102,6 +102,10 @@ See [Installation](installation.md) for the local and publication-dependent step
 
 No. The Apache License 2.0 already covers commercial use and redistribution under its conditions. Only use of the Semantic SEO Geek™ name or logo as branding for another product or service falls outside the license; see the [trademark policy](../TRADEMARKS.md).
 
+## Can I hire the maintainer?
+
+Yes. Nipun Arora applies these workflows on production SEO delivery and takes engagements through <https://nipunarora.me>. Hiring is never required to use the plugin, get an issue answered, or have a defect fixed.
+
 ## How do I report a security issue?
 
 Use GitHub private vulnerability reporting for the [canonical repository](https://github.com/nipun-arora/semantic-seo-geek). Do not publish an unpatched vulnerability or leaked credential in an issue. See [Security](../SECURITY.md).

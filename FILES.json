@@ -87,8 +87,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "76a74a1798191c3ee4c0a037e9fc6b937040abfd367b92edfff1eaece9adf8f6",
-      "size": 13272
+      "sha256": "5b931543e21755317f218e0507654560b07e7e7ee3936c1c2d1a99db2d2448ed",
+      "size": 13699
     },
     {
       "path": "SECURITY.md",
@@ -97,8 +97,8 @@
     },
     {
       "path": "SUPPORT.md",
-      "sha256": "b4627031e77b21dc57ea1a477b58bf15d1f8156f9197c254553f15861305ec3c",
-      "size": 678
+      "sha256": "dc6381639fbc045c997e8247049dfd11806a35bf56bf3c97194f2e7be170abbf",
+      "size": 810
     },
     {
       "path": "TRADEMARKS.md",
@@ -117,8 +117,8 @@
     },
     {
       "path": "docs/faq.md",
-      "sha256": "510b4c38e2e2569c698919021a8c222a1c2c2f549ed268d5b52fad04a00b6c25",
-      "size": 7109
+      "sha256": "ccae2b84fe8daffe702404faad0f4ecc37d770ab143b0276919f706920032f67",
+      "size": 7355
     },
     {
       "path": "docs/how-it-works.md",

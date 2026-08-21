@@ -192,6 +192,10 @@ More questions are answered in the [full FAQ](docs/faq.md).
 - [Security policy](SECURITY.md) — how to report a vulnerability privately
 - [Contributing](CONTRIBUTING.md) — issue forms and the version-1 contribution boundary
 
+## Work with the maintainer
+
+Semantic SEO Geek is maintained by [Nipun Arora](https://nipunarora.me), who uses the same workflows on production SEO delivery. For hands-on help — audits, topical architecture, content programs, or an engagement — see <https://nipunarora.me>. For plugin defects and workflow ideas, the [issue forms](CONTRIBUTING.md) remain the right channel, and no engagement is needed to get a bug fixed.
+
 ## License and publisher
 
 Copyright © 2026 Nipun Arora.

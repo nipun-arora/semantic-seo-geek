@@ -6,5 +6,6 @@ Semantic SEO Geek is maintained on a best-effort basis.
 - Workflow idea or documentation gap: use the workflow-request issue form.
 - Vulnerability or private-data exposure: follow [SECURITY.md](SECURITY.md); do not open a public issue.
 - License question: read [docs/license.md](docs/license.md) and the governing [LICENSE](LICENSE); do not use the security channel.
+- Hands-on SEO help or a paid engagement with the maintainer: see <https://nipunarora.me>; issues stay free and do not require one.
 
 Before opening an issue, remove credentials, private paths, customer data, paid material, and proprietary source text from logs or examples. An issue does not guarantee a response time, implementation, or individualized SEO advice.
