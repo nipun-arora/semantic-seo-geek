@@ -3,7 +3,8 @@
   "name": "semantic-seo-geek",
   "owner": {
     "name": "Nipun Arora",
-    "url": "https://github.com/nipun-arora"
+    "email": "hi@nipunarora.me",
+    "url": "https://nipunarora.me"
   },
   "description": "Evidence-led semantic SEO skills for Claude Code.",
   "plugins": [
@@ -23,4 +24,3 @@
     }
   ]
 }
-

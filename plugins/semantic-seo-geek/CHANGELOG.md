@@ -4,11 +4,11 @@ All notable public changes follow [Keep a Changelog](https://keepachangelog.com/
 
 ## [Unreleased]
 
-## [1.0.0] - 2026-08-13
+## [1.0.0] - 2026-08-21
 
 ### Added
 
-- Initial source-available release with 11 evidence-led semantic SEO workflows.
+- Initial open-source release with 11 evidence-led semantic SEO workflows, under the Apache License 2.0.
 - Independently written shared skill architecture for Codex and Claude Code.
 - Deterministic public-surface, provenance, metadata, and package validation.
 

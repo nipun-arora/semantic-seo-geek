@@ -2,39 +2,33 @@
 
 ## What is Semantic SEO Geek?
 
-Semantic SEO Geek is a source-available plugin that gives Codex and Claude Code 11 evidence-led workflows for technical SEO, topical planning, entity coverage, content production, visual SEO, and AI search visibility.
+Semantic SEO Geek is an open-source plugin that gives Codex and Claude Code 11 evidence-led workflows for technical SEO, topical planning, entity coverage, content production, visual SEO, and AI search visibility.
 
 It is a workflow package, not an SEO data provider, crawler, rank tracker, or guarantee engine.
 
 ## Is Semantic SEO Geek open source?
 
-No. It is source-available under the [PolyForm Internal Use License 1.0.0](../LICENSE). The license permits internal business use and private changes for that purpose, but it does not permit distribution.
+Yes. It is licensed under the [Apache License 2.0](../LICENSE), which permits use, modification, and redistribution for any purpose, including commercial use, under the license's conditions.
 
 Read [License and permitted use](license.md) for a plain-language summary. The license text governs if the summary differs.
 
-## What use does the public license permit?
+## What use does the license permit?
 
-The license expressly permits use for your internal business operations and private changes for that purpose. Its definition of “your company” includes a sole proprietorship and organizations under common control.
+Everything the Apache License 2.0 grants: use, private modification, redistribution of original or modified copies, sublicensing, and commercial use, by companies and individuals alike. Personal and hobby use are covered by the same grant.
 
-It does not permit redistribution, sublicensing, transfer, public mirrors, resale, repackaging, or publication under another name. Uses outside the public grant require a separate signed agreement.
-
-## Does the license include a separate personal or hobby-use permission?
-
-The PolyForm Internal Use License expressly identifies internal business use as permitted. It does not add a separate hobby-use clause. If your intended use is outside the permission stated in the license, request a separate signed agreement before relying on it.
+If you redistribute, keep the [license](../LICENSE) and the attribution notices in [`NOTICE.md`](../NOTICE.md), preserve existing notices, and state significant changes to modified files.
 
 This answer summarizes the repository terms; it is not legal advice.
 
 ## Can I fork the repository on GitHub?
 
-GitHub's terms separately allow native GitHub viewing and forking of public repositories and grant GitHub and its affiliates additional platform rights. Those rights do not grant a general project license to redistribute, rebrand, sell, mirror, or publish the software elsewhere.
+Yes. GitHub's native forking is allowed by GitHub's terms, and the Apache License 2.0 also permits forks and redistribution directly, subject to its conditions.
 
-Keep the original publisher identity and follow the [trademark policy](../TRADEMARKS.md). See the [copyright and distribution notice](../NOTICE.md) for the repository's stated boundary.
+Follow the [trademark policy](../TRADEMARKS.md) for naming, and see [`NOTICE.md`](../NOTICE.md) for the attribution that must travel with copies.
 
 ## Can I publish a modified version under my name?
 
-No permission for that is granted by the public license. The license does not permit distribution, and the trademark policy does not allow another product, repository, package, marketplace listing, service, or domain to present itself as the official Semantic SEO Geek project.
-
-Request a separate signed agreement if your plan includes distribution, repackaging, rebranding, direct exposure of the plugin to users outside “your company” through a hosted service, a bundle, or a third-party marketplace.
+You may publish modified versions under the Apache License 2.0's conditions, with your own branding. The license grants no trademark rights: a modified version must not use the Semantic SEO Geek™ name or logo as its branding, must not present itself as the official Semantic SEO Geek project, and must not imply affiliation, sponsorship, approval, or endorsement. Keep the required license and notice files and mark your changes.
 
 ## Does the plugin contain private learning or reference material?
 
@@ -94,9 +88,9 @@ The marketplace commands resolve the canonical public repository. They cannot fe
 
 See [Installation](installation.md) for the local and publication-dependent steps.
 
-## How do I request a separate license?
+## Do I need a separate license for commercial use or redistribution?
 
-Follow [Additional licensing](../COMMERCIAL-LICENSE.md). A request or conversation does not grant permission.
+No. The Apache License 2.0 already covers commercial use and redistribution under its conditions. Only use of the Semantic SEO Geek™ name or logo as branding for another product or service falls outside the license; see the [trademark policy](../TRADEMARKS.md).
 
 ## How do I report a security issue?
 

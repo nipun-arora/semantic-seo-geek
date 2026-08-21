@@ -2,11 +2,11 @@
 
 ![Semantic SEO Geek — 11 SEO workflows for Codex and Claude Code](.github/assets/social-preview.png)
 
-Get 11 evidence-led workflows for technical SEO, topical planning, entity coverage, content production, visual SEO, and AI search visibility in Codex and Claude Code. Semantic SEO Geek packages them as one source-available plugin.
+Get 11 evidence-led workflows for technical SEO, topical planning, entity coverage, content production, visual SEO, and AI search visibility in Codex and Claude Code. Semantic SEO Geek packages them as one open-source plugin.
 
 Use it when you need a repeatable way to audit, plan, write, or review search-focused work without treating an SEO tactic as a guaranteed outcome. Each workflow separates verified evidence from inference and unresolved questions.
 
-> **License:** This project is source-available, not open source. The PolyForm Internal Use License 1.0.0 permits internal business use—including permitted use in commercial business operations—and private changes for that purpose. It does not permit redistribution. It does not add a separate personal or hobby-use grant. Read [License and permitted use](docs/license.md) before installing.
+> **License:** This project is open source under the [Apache License 2.0](LICENSE). Use it, modify it, and redistribute it under the license's conditions, which include retaining the [license](LICENSE) and [notice](NOTICE.md) files. The license grants no trademark rights: the Semantic SEO Geek name and logo stay with the [trademark policy](TRADEMARKS.md). Read [License and permitted use](docs/license.md) for a plain-language summary.
 
 ## What you can do
 
@@ -127,6 +127,6 @@ The release boundary is checked for excluded files and stale private references.
 
 Copyright © 2026 Nipun Arora.
 
-Semantic SEO Geek is available under the [PolyForm Internal Use License 1.0.0](LICENSE). The name and logo are governed by the [trademark policy](TRADEMARKS.md). Redistribution, repackaging, exposing the plugin to users outside “your company” through a hosted service, or third-party distribution requires a [separate signed agreement](COMMERCIAL-LICENSE.md).
+Semantic SEO Geek is available under the [Apache License 2.0](LICENSE). Redistribution and modified versions are permitted under the license's conditions, including retention of the [`LICENSE`](LICENSE) and [`NOTICE.md`](NOTICE.md) files. The license grants no trademark rights: the name and logo are governed by the [trademark policy](TRADEMARKS.md), so a fork or derived product must use its own branding and must not present itself as the official Semantic SEO Geek project.
 
 The canonical repository is <https://github.com/nipun-arora/semantic-seo-geek>.

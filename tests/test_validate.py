@@ -23,10 +23,11 @@ import validate  # noqa: E402
 PACKAGE_NAME = "semantic-seo-geek"
 PACKAGE_DIR = Path("plugins") / PACKAGE_NAME
 PUBLISHER = "Nipun Arora"
-PUBLISHER_URL = "https://github.com/nipun-arora"
+PUBLISHER_URL = "https://nipunarora.me"
+AUTHOR_EMAIL = "hi@nipunarora.me"
 REPOSITORY = "https://github.com/nipun-arora/semantic-seo-geek"
 VERSION = "1.0.0"
-LICENSE_ID = "LicenseRef-PolyForm-Internal-Use-1.0.0"
+LICENSE_ID = "Apache-2.0"
 GITATTRIBUTES_CONTENT = (
     "* text=auto eol=lf\n"
     "*.png binary\n"
@@ -70,7 +71,6 @@ ROOT_REQUIRED_TEXT_PATHS = (
     Path("ACKNOWLEDGEMENTS.md"),
     Path("CHANGELOG.md"),
     Path("CODE_OF_CONDUCT.md"),
-    Path("COMMERCIAL-LICENSE.md"),
     Path("CONTRIBUTING.md"),
     Path("GOVERNANCE.md"),
     Path("LICENSE"),
@@ -95,7 +95,6 @@ PACKAGE_REQUIRED_TEXT_PATHS = (
     PACKAGE_DIR / ".codex-plugin/plugin.json",
     PACKAGE_DIR / "ACKNOWLEDGEMENTS.md",
     PACKAGE_DIR / "CHANGELOG.md",
-    PACKAGE_DIR / "COMMERCIAL-LICENSE.md",
     PACKAGE_DIR / "LICENSE",
     PACKAGE_DIR / "NOTICE.md",
     PACKAGE_DIR / "SOURCES.md",
@@ -203,7 +202,7 @@ def seed_valid_repository(root: Path) -> Path:
         "name": PACKAGE_NAME,
         "version": VERSION,
         "description": "Evidence-led semantic SEO workflows.",
-        "author": {"name": PUBLISHER, "url": PUBLISHER_URL},
+        "author": {"name": PUBLISHER, "email": AUTHOR_EMAIL, "url": PUBLISHER_URL},
         "homepage": REPOSITORY,
         "repository": REPOSITORY,
         "license": LICENSE_ID,
@@ -249,7 +248,7 @@ def seed_valid_repository(root: Path) -> Path:
         ".claude-plugin/marketplace.json",
         {
             "name": PACKAGE_NAME,
-            "owner": {"name": PUBLISHER, "url": PUBLISHER_URL},
+            "owner": {"name": PUBLISHER, "email": AUTHOR_EMAIL, "url": PUBLISHER_URL},
             "plugins": [
                 {
                     "name": PACKAGE_NAME,
@@ -295,12 +294,12 @@ def seed_valid_repository(root: Path) -> Path:
         ("ACKNOWLEDGEMENTS.md", "# Acknowledgements\n"),
         (
             "LICENSE",
-            "# PolyForm Internal Use License 1.0.0\n\n"
-            "[Changes](#changes-and-new-works-license)\n\n"
-            "## Changes and New Works License\n",
+            "Apache License\n"
+            "Version 2.0, January 2004\n\n"
+            "[Redistribution](#redistribution)\n\n"
+            "## Redistribution\n",
         ),
         ("TRADEMARKS.md", "# Semantic SEO Geek trademark policy\n"),
-        ("COMMERCIAL-LICENSE.md", "# Additional licensing\n"),
     ):
         write_text(root, filename, content)
         write_text(root, PACKAGE_DIR / filename, content)
@@ -601,7 +600,6 @@ class ValidationTests(unittest.TestCase):
             "ACKNOWLEDGEMENTS.md",
             "LICENSE",
             "TRADEMARKS.md",
-            "COMMERCIAL-LICENSE.md",
         ):
             with self.subTest(filename=filename), tempfile.TemporaryDirectory() as temporary_directory:
                 root = seed_valid_repository(Path(temporary_directory))
@@ -882,7 +880,7 @@ class ValidationTests(unittest.TestCase):
                 root,
                 "docs/license.md",
                 "# License\n\n"
-                "[Changes](../LICENSE#changes-and-new-works-license)\n",
+                "[Redistribution](../LICENSE#redistribution)\n",
             )
 
             validate.validate_repository(root)

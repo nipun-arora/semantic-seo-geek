@@ -2,7 +2,7 @@
 
 Issues and suggestions are welcome. Version 1 does not accept external code, documentation, skill, or other content contributions.
 
-This temporary boundary avoids unclear inbound licensing while the project uses a source-available license that prohibits distribution. Do not open a pull request: it will be closed without merging, even if the proposed change is useful.
+This temporary boundary keeps the project's provenance guarantees simple to maintain: every published line remains the work of one author writing from the public sources listed in the source register. Do not open a pull request: it will be closed without merging, even if the proposed change is useful.
 
 ## Report a bug
 

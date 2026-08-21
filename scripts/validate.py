@@ -23,10 +23,11 @@ import zlib
 PACKAGE_NAME = "semantic-seo-geek"
 PACKAGE_DIR = Path("plugins") / PACKAGE_NAME
 PUBLISHER = "Nipun Arora"
-PUBLISHER_URL = "https://github.com/nipun-arora"
+PUBLISHER_URL = "https://nipunarora.me"
+AUTHOR_EMAIL = "hi@nipunarora.me"
 REPOSITORY = "https://github.com/nipun-arora/semantic-seo-geek"
 VERSION = "1.0.0"
-LICENSE_ID = "LicenseRef-PolyForm-Internal-Use-1.0.0"
+LICENSE_ID = "Apache-2.0"
 DISPLAY_NAME = "Semantic SEO Geek"
 CATEGORY = "Productivity"
 GITATTRIBUTES_CONTENT = (
@@ -85,7 +86,6 @@ ROOT_PUBLIC_FILES = frozenset(
         Path("NOTICE.md"),
         Path("CHANGELOG.md"),
         Path("TRADEMARKS.md"),
-        Path("COMMERCIAL-LICENSE.md"),
         Path("ACKNOWLEDGEMENTS.md"),
         Path("CONTRIBUTING.md"),
         Path("CODE_OF_CONDUCT.md"),
@@ -118,7 +118,6 @@ PACKAGE_PUBLIC_FILES = frozenset(
         PACKAGE_DIR / "CHANGELOG.md",
         PACKAGE_DIR / "SOURCES.md",
         PACKAGE_DIR / "TRADEMARKS.md",
-        PACKAGE_DIR / "COMMERCIAL-LICENSE.md",
         PACKAGE_DIR / "ACKNOWLEDGEMENTS.md",
         PACKAGE_DIR / "assets/icon.png",
         PACKAGE_DIR / "skills/content-humanizer/scripts/scan-copy-patterns.sh",
@@ -550,12 +549,20 @@ def _validate_json_metadata(root: Path) -> None:
         source=claude_path,
         label="owner url",
     )
+    _require_exact(
+        claude_catalog,
+        ("owner", "email"),
+        AUTHOR_EMAIL,
+        source=claude_path,
+        label="owner email",
+    )
 
     for manifest_path, manifest in manifest_records:
         for keys, expected, label in (
             (("name",), PACKAGE_NAME, "name"),
             (("version",), VERSION, "version"),
             (("author", "name"), PUBLISHER, "publisher author name"),
+            (("author", "email"), AUTHOR_EMAIL, "author email"),
             (("author", "url"), PUBLISHER_URL, "author url"),
             (("homepage",), REPOSITORY, "homepage"),
             (("repository",), REPOSITORY, "repository"),
@@ -622,7 +629,6 @@ def _validate_release_invariants(root: Path) -> None:
         "ACKNOWLEDGEMENTS.md",
         "LICENSE",
         "TRADEMARKS.md",
-        "COMMERCIAL-LICENSE.md",
     ):
         root_path = root / filename
         package_path = root / PACKAGE_DIR / filename

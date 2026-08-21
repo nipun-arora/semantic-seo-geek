@@ -7,8 +7,8 @@
     },
     {
       "path": ".claude-plugin/marketplace.json",
-      "sha256": "f4dba4750d274b280e79e4f94d45ddbc86c759076d379d28044e160438ea9871",
-      "size": 707
+      "sha256": "7541ecc192e62697e733f52d4228493409ba7c56340201906f11cc677e062eca",
+      "size": 730
     },
     {
       "path": ".gitattributes",
@@ -57,8 +57,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "2ac6d3088a2448c9640c496b417539f9ceaabdb7f873ec146738d5cd1c9a15e3",
-      "size": 582
+      "sha256": "bb9061dfecf14286613b5a0560b0ed83eb1cfe1d67b15cef31708a438c4257c4",
+      "size": 607
     },
     {
       "path": "CODE_OF_CONDUCT.md",
@@ -66,34 +66,29 @@
       "size": 1603
     },
     {
-      "path": "COMMERCIAL-LICENSE.md",
-      "sha256": "db042ba8302671c51289e307e976e950d8ffccdbc7ba68f80aa1975799904aa7",
-      "size": 1469
-    },
-    {
       "path": "CONTRIBUTING.md",
-      "sha256": "d0c25c9e0638fd15a59f2cebe86def84d67c06b6796115fdaa2217c85f3ecec9",
-      "size": 1518
+      "sha256": "b28b3b7f530284b31f70cc3aae7286ba7b46be77e4e00acde531166239e95fbd",
+      "size": 1583
     },
     {
       "path": "GOVERNANCE.md",
-      "sha256": "5f674b5a10cc75635965af986e9a68f162b963d7bc47259fecef8d9e771db7de",
-      "size": 734
+      "sha256": "25c5c6ba1ca0c22410185522e525cad93a77a259d291749469ef22d9093e30a0",
+      "size": 745
     },
     {
       "path": "LICENSE",
-      "sha256": "3a4a1539d3e265d98a43af998a13e28d4f04fcc35c283bec1e9bf7a86b266ef7",
-      "size": 3314
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "size": 11358
     },
     {
       "path": "NOTICE.md",
-      "sha256": "90e0835d3b5991aadebb5c4ba018b9745847b26a1897add7dc6d3e1c1a4a2b42",
-      "size": 1606
+      "sha256": "460b7dbb7915ef22c2116229b848009e8549ccc7bca6bd6f86fc4f31b2c9713a",
+      "size": 748
     },
     {
       "path": "README.md",
-      "sha256": "ac98686235bf10756c8e6bb3d6b27f4e6face8dea45bd36d6b4d912d7c57afbf",
-      "size": 6952
+      "sha256": "0d9d9177579d58453c03a24812fcaff99742aa9e11efb6d561c931535f6ed82e",
+      "size": 7103
     },
     {
       "path": "SECURITY.md",
@@ -102,8 +97,8 @@
     },
     {
       "path": "SUPPORT.md",
-      "sha256": "fc3fae45603deaf8bd9340e03d57408d1793cca0ea17a93e51b83fe86951b9d0",
-      "size": 659
+      "sha256": "b4627031e77b21dc57ea1a477b58bf15d1f8156f9197c254553f15861305ec3c",
+      "size": 678
     },
     {
       "path": "TRADEMARKS.md",
@@ -122,8 +117,8 @@
     },
     {
       "path": "docs/faq.md",
-      "sha256": "23d161a7458fb0ca3bdf58aa236d216335a76b15ce8f5000e805463e4c67c952",
-      "size": 6481
+      "sha256": "6a936ea802773d32f1a95ba282dd7b1218edcc957d9cdea28dc4a9683eb4b2ea",
+      "size": 6078
     },
     {
       "path": "docs/how-it-works.md",
@@ -137,8 +132,8 @@
     },
     {
       "path": "docs/license.md",
-      "sha256": "01ad4a7ff1656e7c2c8a9189c20198c2c06442aa879676bd68882fefb6418aec",
-      "size": 4102
+      "sha256": "e4f360ab3831cfb458493e5e19a4f1c73ba8aaaefa36bfccbe029e980a7d32b0",
+      "size": 2972
     },
     {
       "path": "docs/skills.md",
@@ -147,13 +142,13 @@
     },
     {
       "path": "plugins/semantic-seo-geek/.claude-plugin/plugin.json",
-      "sha256": "b4bd7e136fb61ac049a80ddc2f1aa2c78c954b6dbcbddfa344ab3ff05d6ba939",
-      "size": 879
+      "sha256": "3250fc822c84c12a66ea842a96b918bf29f927e51139215b188e62bff207b014",
+      "size": 875
     },
     {
       "path": "plugins/semantic-seo-geek/.codex-plugin/plugin.json",
-      "sha256": "018ee505d551eaab12399dfd663d3cc6920905d513d12412c1f393b637f9ec8b",
-      "size": 1607
+      "sha256": "ba2e0d182bf6f1ddce768af3f5d663fca15f7c159404f81876f9c3de8c3cd8eb",
+      "size": 1603
     },
     {
       "path": "plugins/semantic-seo-geek/ACKNOWLEDGEMENTS.md",
@@ -162,23 +157,18 @@
     },
     {
       "path": "plugins/semantic-seo-geek/CHANGELOG.md",
-      "sha256": "2ac6d3088a2448c9640c496b417539f9ceaabdb7f873ec146738d5cd1c9a15e3",
-      "size": 582
-    },
-    {
-      "path": "plugins/semantic-seo-geek/COMMERCIAL-LICENSE.md",
-      "sha256": "db042ba8302671c51289e307e976e950d8ffccdbc7ba68f80aa1975799904aa7",
-      "size": 1469
+      "sha256": "bb9061dfecf14286613b5a0560b0ed83eb1cfe1d67b15cef31708a438c4257c4",
+      "size": 607
     },
     {
       "path": "plugins/semantic-seo-geek/LICENSE",
-      "sha256": "3a4a1539d3e265d98a43af998a13e28d4f04fcc35c283bec1e9bf7a86b266ef7",
-      "size": 3314
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "size": 11358
     },
     {
       "path": "plugins/semantic-seo-geek/NOTICE.md",
-      "sha256": "571f74d067875fec1d4a97ae3ee04889a13edadae61086518bc96478022c6f12",
-      "size": 756
+      "sha256": "afba5d244b7f6f336a14f603b313a72ab9965fef589dfa7a665cdf0a31e9f2ad",
+      "size": 813
     },
     {
       "path": "plugins/semantic-seo-geek/SOURCES.md",
@@ -322,13 +312,13 @@
     },
     {
       "path": "scripts/validate.py",
-      "sha256": "4bb0337442bad3f670d2c32295e8fd266e8df78498227652ad71cfc99cb6f400",
-      "size": 52140
+      "sha256": "883f1ed84d9b8e4b1168eab0ea871b98cafd83d678c1fb5c052b3f28d69725ec",
+      "size": 52240
     },
     {
       "path": "tests/test_validate.py",
-      "sha256": "b1783416dcfc4af4331ea55da677fffcf9e0c0f83f9572d7f7035e8ba6d40263",
-      "size": 68233
+      "sha256": "859108426ce2f0a7f6b0bb2c985f1d119c59b0724f571e0c49bc33bcbf96aad1",
+      "size": 68086
     }
   ],
   "format": 1
