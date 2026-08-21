@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security report
+    url: https://github.com/nipun-arora/semantic-seo-geek/security/advisories/new
+    about: Report a vulnerability privately. Do not disclose it in a public issue.
+  - name: Additional licensing
+    url: https://github.com/nipun-arora
+    about: Contact Nipun Arora about a separate distribution or commercial agreement.

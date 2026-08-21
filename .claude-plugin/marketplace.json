@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "semantic-seo-geek",
+  "owner": {
+    "name": "Nipun Arora",
+    "url": "https://github.com/nipun-arora"
+  },
+  "description": "Evidence-led semantic SEO skills for Claude Code.",
+  "plugins": [
+    {
+      "name": "semantic-seo-geek",
+      "source": "./plugins/semantic-seo-geek",
+      "description": "Technical SEO, topical planning, entity coverage, content production, visual SEO, and AI search visibility workflows.",
+      "category": "Productivity",
+      "tags": [
+        "seo",
+        "semantic-seo",
+        "technical-seo",
+        "content",
+        "entity-seo",
+        "ai-search"
+      ]
+    }
+  ]
+}
+

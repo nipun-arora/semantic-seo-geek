@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO Page Production"
+  short_description: "Assemble and verify approved search-focused pages"
+  default_prompt: "Use $page-production to assemble and verify this page from approved copy, evidence, and assets."

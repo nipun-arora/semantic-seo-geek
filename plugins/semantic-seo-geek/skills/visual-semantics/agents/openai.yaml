@@ -1,0 +1,4 @@
+interface:
+  display_name: "Visual SEO"
+  short_description: "Audit image discovery, context, and access"
+  default_prompt: "Use $visual-semantics to audit these images for discovery, context, performance, and accessibility."

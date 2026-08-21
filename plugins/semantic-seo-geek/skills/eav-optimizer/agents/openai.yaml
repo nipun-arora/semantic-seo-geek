@@ -1,0 +1,4 @@
+interface:
+  display_name: "Entity Coverage Mapper"
+  short_description: "Map entities, attributes, values, and gaps"
+  default_prompt: "Use $eav-optimizer to map the entities, attributes, evidence, and coverage gaps for this topic."

@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*.log
+.env
+.env.*
+node_modules/
+dist/
+build/
+coverage/
+.pytest_cache/
+.mypy_cache/
+.planning/evidence/
+.release/
+

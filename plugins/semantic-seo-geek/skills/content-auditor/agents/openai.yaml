@@ -1,0 +1,4 @@
+interface:
+  display_name: "Semantic Content Auditor"
+  short_description: "Audit content quality, coverage, and evidence"
+  default_prompt: "Use $content-auditor to audit this page and prioritize the fixes."

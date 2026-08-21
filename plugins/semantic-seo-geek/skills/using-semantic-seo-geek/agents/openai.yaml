@@ -1,0 +1,4 @@
+interface:
+  display_name: "Semantic SEO Geek"
+  short_description: "Route semantic SEO work to the right workflow"
+  default_prompt: "Use $using-semantic-seo-geek to choose and run the right SEO workflow."

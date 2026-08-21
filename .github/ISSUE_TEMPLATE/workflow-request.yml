@@ -1,0 +1,32 @@
+name: Workflow request
+description: Suggest a focused workflow or documentation improvement.
+title: "[Workflow]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: User problem
+      description: Describe the decision or artifact the workflow should support.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired output
+      description: State the minimum useful deliverable and what should remain out of scope.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Current primary sources
+      description: Link first-party documentation for time-sensitive platform or policy claims.
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Source boundary
+      options:
+        - label: I did not paste classroom materials, publication text, paid resources, private research, or other proprietary material.
+          required: true

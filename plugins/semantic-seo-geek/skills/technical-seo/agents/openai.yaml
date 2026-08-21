@@ -1,0 +1,4 @@
+interface:
+  display_name: "Technical SEO"
+  short_description: "Audit crawl, index, rendering, and schema"
+  default_prompt: "Use $technical-seo to audit crawlability, indexability, and search markup."

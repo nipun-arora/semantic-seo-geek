@@ -1,0 +1,4 @@
+interface:
+  display_name: "Semantic Content Writer"
+  short_description: "Draft useful, sourced, search-ready content"
+  default_prompt: "Use $algorithmic-writer to draft a useful and evidence-backed page for this query."

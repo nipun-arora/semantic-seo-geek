@@ -1,0 +1,21 @@
+{
+  "name": "semantic-seo-geek",
+  "interface": {
+    "displayName": "Semantic SEO Geek"
+  },
+  "plugins": [
+    {
+      "name": "semantic-seo-geek",
+      "source": {
+        "source": "local",
+        "path": "./plugins/semantic-seo-geek"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
+

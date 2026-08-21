@@ -1,0 +1,4 @@
+interface:
+  display_name: "Title and Heading Optimizer"
+  short_description: "Align titles, H1s, and heading structure"
+  default_prompt: "Use $title-heading-optimizer to audit and rewrite the title and heading structure."

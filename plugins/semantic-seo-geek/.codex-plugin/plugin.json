@@ -1,0 +1,48 @@
+{
+  "name": "semantic-seo-geek",
+  "version": "1.0.0",
+  "description": "Evidence-led semantic SEO workflows for technical audits, topical planning, entity coverage, content production, visual SEO, and AI search visibility.",
+  "author": {
+    "name": "Nipun Arora",
+    "url": "https://github.com/nipun-arora"
+  },
+  "homepage": "https://github.com/nipun-arora/semantic-seo-geek",
+  "repository": "https://github.com/nipun-arora/semantic-seo-geek",
+  "license": "LicenseRef-PolyForm-Internal-Use-1.0.0",
+  "keywords": [
+    "semantic-seo",
+    "technical-seo",
+    "content-seo",
+    "content-audit",
+    "topical-map",
+    "topical-authority",
+    "entity-seo",
+    "structured-data",
+    "image-seo",
+    "ai-search",
+    "geo",
+    "codex-skills"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Semantic SEO Geek",
+    "shortDescription": "Evidence-led SEO planning, audits, and content workflows.",
+    "longDescription": "Plan, audit, write, and verify search-focused work with 11 portable skills for technical SEO, topical maps, entity coverage, content, images, and AI-mediated search.",
+    "developerName": "Nipun Arora",
+    "category": "Productivity",
+    "capabilities": [
+      "Guide",
+      "Write",
+      "Analyze"
+    ],
+    "websiteURL": "https://github.com/nipun-arora/semantic-seo-geek",
+    "defaultPrompt": [
+      "Audit this site for technical SEO issues.",
+      "Build an evidence-led topical map.",
+      "Plan a page for AI search visibility."
+    ],
+    "brandColor": "#176B5B",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png"
+  }
+}

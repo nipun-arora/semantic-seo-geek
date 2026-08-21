@@ -1,0 +1,4 @@
+interface:
+  display_name: "Topical Map Architect"
+  short_description: "Plan evidence-led content and internal links"
+  default_prompt: "Use $topical-map-architect to plan a content map for this site."

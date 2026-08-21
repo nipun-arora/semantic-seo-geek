@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Search Visibility"
+  short_description: "Assess entity accuracy and AI search visibility"
+  default_prompt: "Use $aiseo-strategist to audit how AI search systems describe and cite this entity."

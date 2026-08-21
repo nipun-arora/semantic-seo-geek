@@ -1,0 +1,4 @@
+interface:
+  display_name: "Content Humanizer"
+  short_description: "Edit stiff copy without changing its claims"
+  default_prompt: "Use $content-humanizer to make this copy sound natural without changing its facts."
