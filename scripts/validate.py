@@ -105,6 +105,7 @@ ROOT_PUBLIC_FILES = frozenset(
         Path("docs/installation.md"),
         Path("docs/license.md"),
         Path("docs/skills.md"),
+        Path("docs/worked-example.md"),
         Path("scripts/validate.py"),
         Path("scripts/sync-public.sh"),
         Path("tests/test_validate.py"),

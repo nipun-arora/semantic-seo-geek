@@ -87,8 +87,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "5b931543e21755317f218e0507654560b07e7e7ee3936c1c2d1a99db2d2448ed",
-      "size": 13699
+      "sha256": "7901a461d95b1092b2ee6276e95b424cb213369d1e69ebfca4fee76c4fe37e2a",
+      "size": 14047
     },
     {
       "path": "SECURITY.md",
@@ -139,6 +139,11 @@
       "path": "docs/skills.md",
       "sha256": "8130a25152bf606a0cfdf772deae7856e3ce01d3373203739d857dc3089ce574",
       "size": 6669
+    },
+    {
+      "path": "docs/worked-example.md",
+      "sha256": "7edb5dc7756c01a605ef19ee6a8368ca2b6ab585f543008ea33d590cb7286077",
+      "size": 4963
     },
     {
       "path": "plugins/semantic-seo-geek/.claude-plugin/plugin.json",
@@ -312,13 +317,13 @@
     },
     {
       "path": "scripts/validate.py",
-      "sha256": "883f1ed84d9b8e4b1168eab0ea871b98cafd83d678c1fb5c052b3f28d69725ec",
-      "size": 52240
+      "sha256": "89aef2bac1c76f873c837b924a2cae17fec83ca76af0a75cbaf28153592059be",
+      "size": 52280
     },
     {
       "path": "tests/test_validate.py",
-      "sha256": "859108426ce2f0a7f6b0bb2c985f1d119c59b0724f571e0c49bc33bcbf96aad1",
-      "size": 68086
+      "sha256": "427c5e091e2c9f4b3d6afb761a1e8df129352362dbd9f1b85656b17d047b516f",
+      "size": 68151
     }
   ],
   "format": 1

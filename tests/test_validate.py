@@ -86,6 +86,7 @@ ROOT_REQUIRED_TEXT_PATHS = (
     Path("docs/installation.md"),
     Path("docs/license.md"),
     Path("docs/skills.md"),
+    Path("docs/worked-example.md"),
     Path("scripts/sync-public.sh"),
     Path("scripts/validate.py"),
     Path("tests/test_validate.py"),
@@ -312,6 +313,7 @@ def seed_valid_repository(root: Path) -> Path:
         "installation.md",
         "license.md",
         "skills.md",
+        "worked-example.md",
     ):
         write_text(root, Path("docs") / doc_name, f"# {doc_name.removesuffix('.md')}\n")
     write_text(root, "docs/installation.md", "# Installation\n\n[Package](../plugins/semantic-seo-geek/)\n")

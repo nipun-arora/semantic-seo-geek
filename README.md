@@ -145,6 +145,8 @@ The deliberate trade-off: this package replaces neither a crawler nor a rank tra
 
 Every public-facing page in this repository was drafted, audited, and revised through the plugin's own writing, auditing, and humanizing workflows, and the copy-pattern helper gates the documentation in this repository. The maintainer uses the same workflows on production SEO delivery. None of that guarantees your outcome; it does mean the instructions are exercised on real work rather than written speculatively.
 
+To see the shape of what each workflow returns — entity registers, a topical map, audit findings, a claim ledger — read the [worked example](docs/worked-example.md) on a fictional espresso-equipment shop.
+
 ## What the package does not contain
 
 The public package contains functional workflow instructions and narrow validation helpers. It contains no private reference collection, classroom material, publication text, transcripts, paid resources, private research, or personal notes.
@@ -183,6 +185,7 @@ More questions are answered in the [full FAQ](docs/faq.md).
 
 - [Installation](docs/installation.md) — Codex and Claude Code install commands, local validation, and publication-dependent steps
 - [Skills](docs/skills.md) — the selection table, evidence labels, and workflow sequences for common jobs
+- [Worked example](docs/worked-example.md) — one fictional project walked through routing, EAV registers, a topical map, and the audits
 - [How it works](docs/how-it-works.md) — the deliverable-first method, evidence register, specialist contracts, and validation layers
 - [Compatibility](docs/compatibility.md) — supported package surfaces, shared behavior, and helper-script runtime
 - [Frequently asked questions](docs/faq.md) — scope, licensing, guarantees, and installation answers
