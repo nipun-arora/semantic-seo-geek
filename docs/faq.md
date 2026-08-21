@@ -6,6 +6,16 @@ Semantic SEO Geek is an open-source plugin that gives Codex and Claude Code 11 e
 
 It is a workflow package, not an SEO data provider, crawler, rank tracker, or guarantee engine.
 
+## What is semantic SEO?
+
+Semantic SEO plans and writes for the meaning of a topic rather than for isolated keywords: the entities involved, their attributes and relationships, and how completely and consistently a site covers them. Search and AI systems increasingly resolve queries against that kind of structure, which is why the workflows here start from entity and coverage analysis instead of keyword lists.
+
+The plugin applies that approach as a working method. It does not claim that any single semantic technique produces a ranking, and it labels the evidence behind each recommendation.
+
+## What is entity-attribute-value (EAV) analysis?
+
+Entity-attribute-value analysis decomposes a topic into the things it is about (entities), the properties that matter for each (attributes), and the specific facts a source can support (values). The `eav-optimizer` workflow builds those registers first, then uses them to plan coverage, draft content against supported facts, and map only supported facts to Schema.org vocabulary.
+
 ## Is Semantic SEO Geek open source?
 
 Yes. It is licensed under the [Apache License 2.0](../LICENSE), which permits use, modification, and redistribution for any purpose, including commercial use, under the license's conditions.

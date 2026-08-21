@@ -87,8 +87,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "0d9d9177579d58453c03a24812fcaff99742aa9e11efb6d561c931535f6ed82e",
-      "size": 7103
+      "sha256": "76a74a1798191c3ee4c0a037e9fc6b937040abfd367b92edfff1eaece9adf8f6",
+      "size": 13272
     },
     {
       "path": "SECURITY.md",
@@ -117,8 +117,8 @@
     },
     {
       "path": "docs/faq.md",
-      "sha256": "6a936ea802773d32f1a95ba282dd7b1218edcc957d9cdea28dc4a9683eb4b2ea",
-      "size": 6078
+      "sha256": "510b4c38e2e2569c698919021a8c222a1c2c2f549ed268d5b52fad04a00b6c25",
+      "size": 7109
     },
     {
       "path": "docs/how-it-works.md",
